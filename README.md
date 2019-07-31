@@ -1,6 +1,3 @@
-[QuAck](https://greatbit.github.io/quack/)
-
-Web based test management system
 
 
 
