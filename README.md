@@ -70,3 +70,11 @@ e.g., starting war using jetty-runner:
 ```
 java -Xbootclasspath/a:/etc/quack -jar /usr/quack/lib/jetty-runner.jar /usr/quack/quack.war
 ```
+
+Testcases Import
+==========
+[Quack Import Maven Plugin](https://github.com/greatbit/import-maven-plugin) allows importing testcases to QuAck. All modifications made on testcases in QuAck manually will remain. However, tests from the same Maven project will be reconfigured on import - new will appear, removed will disappear.
+
+Liken - AB-testing QuAck capable launcher
+==========
+[Liken](https://github.com/greatbit/liken) Liken is a web-based service that allows to perform A-B comparison regression testing for web-based UI. Fully compatible with QuAck.
